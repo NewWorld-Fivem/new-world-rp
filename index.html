@@ -149,10 +149,9 @@
     <h2>💬 Commandes utiles</h2>
     <ul>
       <li><code>/me</code> : Action visible</li>
-      <li><code>/do</code> : Description visible</li>
-      <li><code>/ooc</code> : Hors RP</li>
+      <li><code>/caisse</code> : Permet de recuperais votre caisse vip</li>
       <li><code>/id</code> : Voir votre ID</li>
-      <li><code>/call police</code>, <code>/ems</code> : Appels d'urgence</li>
+      <li><code>/report</code> : Premet de conctacter le staff en jeux </li>
       <li><code>/job</code> : Voir votre métier</li>
     </ul>
   </section>
