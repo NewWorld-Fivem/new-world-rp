@@ -7,28 +7,30 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
+      background: linear-gradient(135deg, #00cfff, #c33eff);
       color: #ffffff;
       margin: 0;
       padding: 20px;
       line-height: 1.6;
     }
     header {
-      background-color: #b30000;
+      background-color: #ff66cc;
       color: white;
       padding: 20px 0;
       text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
     section {
-      background-color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.95);
       color: #000000;
       padding: 20px;
       margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(255, 0, 0, 0.5);
+      box-shadow: 0 2px 8px rgba(0, 207, 255, 0.5);
     }
     h1, h2 {
-      color: #000000;
+      color: #c33eff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
     ul {
       padding-left: 20px;
@@ -39,26 +41,29 @@
       margin-top: 10px;
     }
     th, td {
-      border: 1px solid #b30000;
+      border: 1px solid #00cfff;
       padding: 10px;
       text-align: left;
     }
     th {
-      background-color: #b30000;
+      background-color: #ff66cc;
       color: #ffffff;
     }
     a {
-      color: #000000;
+      color: #c33eff;
       text-decoration: none;
+      font-weight: bold;
     }
     a:hover {
+      color: #ff66cc;
       text-decoration: underline;
     }
     code {
-      background-color: #f5f5f5;
-      color: #b30000;
+      background-color: #f0e6ff;
+      color: #c33eff;
       padding: 2px 4px;
       border-radius: 4px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -149,9 +154,9 @@
     <h2>💬 Commandes utiles</h2>
     <ul>
       <li><code>/me</code> : Action visible</li>
-      <li><code>/caisse</code> : Permet de recuperais votre caisse vip</li>
+      <li><code>/caisse</code> : Permet de récupérer votre caisse VIP</li>
       <li><code>/id</code> : Voir votre ID</li>
-      <li><code>/report</code> : Premet de conctacter le staff en jeux </li>
+      <li><code>/report</code> : Permet de contacter le staff en jeu</li>
       <li><code>/job</code> : Voir votre métier</li>
     </ul>
   </section>
