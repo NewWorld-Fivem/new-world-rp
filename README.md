@@ -7,30 +7,30 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #00cfff, #c33eff);
+      background-color: #0d0d1a;
       color: #ffffff;
       margin: 0;
       padding: 20px;
       line-height: 1.6;
     }
     header {
-      background-color: #ff66cc;
+      background-color: #00b4cc;
       color: white;
       padding: 20px 0;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     }
     section {
-      background-color: rgba(255, 255, 255, 0.95);
-      color: #000000;
+      background-color: #1a1a33;
+      color: #ffffff;
       padding: 20px;
       margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 207, 255, 0.5);
+      box-shadow: 0 2px 8px rgba(0, 180, 204, 0.5);
     }
     h1, h2 {
-      color: #c33eff;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      color: #00e6ff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     }
     ul {
       padding-left: 20px;
@@ -41,26 +41,26 @@
       margin-top: 10px;
     }
     th, td {
-      border: 1px solid #00cfff;
+      border: 1px solid #00b4cc;
       padding: 10px;
       text-align: left;
     }
     th {
-      background-color: #ff66cc;
+      background-color: #00b4cc;
       color: #ffffff;
     }
     a {
-      color: #c33eff;
+      color: #00e6ff;
       text-decoration: none;
       font-weight: bold;
     }
     a:hover {
-      color: #ff66cc;
+      color: #00b4cc;
       text-decoration: underline;
     }
     code {
-      background-color: #f0e6ff;
-      color: #c33eff;
+      background-color: #26263f;
+      color: #00e6ff;
       padding: 2px 4px;
       border-radius: 4px;
       font-weight: bold;
